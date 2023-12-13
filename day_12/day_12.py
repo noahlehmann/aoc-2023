@@ -13,6 +13,7 @@ def main():
         expanded_cnt += num_arrangements(expanded_record, expanded_numbers)
     print(f"cnt normal  : {cnt}")  # 7670
     print(f"cnt expanded: {expanded_cnt}")  # 157383940585037
+    file.close()
 
 
 def num_arrangements(record, numbers):
